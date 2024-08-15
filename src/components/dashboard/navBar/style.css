@@ -1,0 +1,76 @@
+.navBar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navMiddle {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLeftImg {
+    width: 125px;
+    height: 125px;
+    margin: 10px;
+}
+
+.navBG {
+    position: relative;
+    background: none;
+    border: none;
+    background-image: url(../../../assets/Group5.png);
+    width: 650px;
+    height: 110px;
+}
+
+.navBGnone {
+    background: none;
+    border: none;
+}
+
+.navLogo {
+    width: 86px;
+    height: 86px;
+    margin-right: 10px;
+}
+
+.navMenu {
+    width: 106px;
+    height: 80px;
+    margin: 10px;
+}
+
+.navRLogo {
+    display: flex;
+    align-items: center;
+}
+
+.NavMoneyTitle {
+    font-size: 15px;
+    color: rgba(93, 194, 250, 1);
+}
+
+.NavMoney {
+    font-size: 30px;
+    color: rgba(93, 194, 250, 1);
+}
+
+.connectbtn {
+    position: absolute;
+    top: 9px;
+    left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 85px;
+    background-image: url(../../../assets/Group1.png);
+    font-family: 'Spicy Rice', sans-serif;
+    font-size: 30px;
+    color: #fff;
+}
